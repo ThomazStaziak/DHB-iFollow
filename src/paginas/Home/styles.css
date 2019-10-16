@@ -1,36 +1,36 @@
 .containerHome {
-    display: flex;
-    flex-wrap: wrap;
-    max-width: 960px;
-    margin: auto;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 960px;
+  margin: auto;
 }
 
 .seguidorContainer {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 
-    width: 300px;
-    background-color: #16161d;
-    border-radius: 5px;
-    margin: 10px;
-    padding: 15px;
-    transition: all .5s;
+  width: 300px;
+  background-color: #16161d;
+  border-radius: 5px;
+  margin: 10px;
+  padding: 15px;
+  transition: all 0.5s;
 }
 
 .seguidorContainer img {
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-bottom: 10px;
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  margin-bottom: 10px;
 }
 
-.seguidorContainer a {
-    color: #fff;
-    font-size: 20px;
+.seguidorContainer p {
+  font-size: 20px;
 }
 
-.seguidorContainer:hover {
-    transform: translateY(-3px);
+.seguidorContainer:hover img {
+  transform: translateY(-3px);
 }
